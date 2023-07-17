@@ -76,8 +76,7 @@ export const ListBears = ( { bears,fetch }) => {
             <form className={styles.ListBears} id="my_form">                          
                 {arrayLi.slice(0,n).map((bear) => ( 
                     <div className={styles.Flex} key={bear.id}>
-                        <label>
-                            {bear.id}
+                        <label>                            
                             <input type="checkbox" onClick={showButton} name="bear" value={bear.name} id={bear.id}/>                       
                             <Link  state={{from:location}} to={`bears/${ bear.id}`} className={styles.link}>{bear.name}</Link>
                         </label>                        
