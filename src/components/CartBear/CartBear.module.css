@@ -1,0 +1,13 @@
+.Conteiner{    
+    padding: 50px;
+}
+
+.Flex{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    height: 400px;
+    margin-left: 50px;
+}
